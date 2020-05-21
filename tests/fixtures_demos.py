@@ -4,6 +4,7 @@ from lib.calculator import Calculator, DBReporter
 from pathlib import Path
 import sqlite3
 
+
 @pytest.fixture()
 def tempdir():
     previous_dir = os.getcwd()

@@ -1,6 +1,8 @@
 from greeter import Greeter
-import sys, io
+import io
+import sys
 import pytest
+
 
 @pytest.fixture
 def greeter():
@@ -11,6 +13,7 @@ def greeter():
     yield g
 
     # free up resources if needed
+
 
 def test_greeter_text(capfd, greeter):
     greeter.hi()

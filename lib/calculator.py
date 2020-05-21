@@ -1,5 +1,6 @@
 import sqlite3
 
+
 class Calculator:
     def __init__(self, filename=None, *args, reporter=None):
         if reporter is not None:
